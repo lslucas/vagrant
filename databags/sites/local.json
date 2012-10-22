@@ -1,0 +1,8 @@
+	{
+	    "id": "techtravel",
+	    "host": "techtravel",
+	    "docroot": "/var/www/techtravel/public",
+	    "aliases": [
+	        "techtravel.dev"
+	    ]
+	}
