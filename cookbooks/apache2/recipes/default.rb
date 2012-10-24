@@ -240,7 +240,7 @@ sites.each do |name|
 
    # Add site info in /etc/hosts
    bash "hosts" do
-     code "echo 127.0.0.1 #{site["host"]} #{site["aliases"].join(' ')} >> /etc/hosts"
+     code "echo 127.0.0.1 #{site["host"]} #{site["host_aliases"].join(' ')} >> /etc/hosts"
    end
 end
 

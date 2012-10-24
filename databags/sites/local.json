@@ -3,6 +3,14 @@
 	    "host": "techtravel",
 	    "docroot": "/var/www/techtravel/public",
 	    "aliases": [
-	        "techtravel.dev"
+	        "*.techtravel",
+	        "*.techtravel.co"
+	    ],
+	    "host_aliases": [
+	        "default.techtravel.co",
+	        "default.techtravel",
+	        "test.techtravel",
+	        "staging.techtravel",
+	        "docs.techtravel"
 	    ]
 	}
