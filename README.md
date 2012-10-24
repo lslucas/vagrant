@@ -7,8 +7,13 @@ Usage
 -----
 
 * [Install Vagrant](http://vagrantup.com)
+<<<<<<< HEAD
 * Import the precise32 base box if you havn't allready done so `vagrant init precise32`
 * Clone `git clone --recursive git@github.com:lslucas/vagrant.git`.
+=======
+* Import the lucid32 base box if you havn't allready done so `vagrant init lucid32`
+* Clone `git clone git@github.com:lslucas/vagrant.git`.
+>>>>>>> f58f06bc8989dc85561094f1e902670325347079
 * cd into the cloned repository
 * `vagrant up`
 * After the enviroment has been booted and provisioned, `192.168.33.1` should display all your project websites from your ~/Sites directory. In others words thats your new localhost
