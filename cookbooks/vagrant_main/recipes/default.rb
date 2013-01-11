@@ -101,6 +101,10 @@ execute "install bson_ext" do
   command "gem install bson_ext"
 end
 
+execute "install sass" do
+  command "gem install sass"
+end
+
 # gem_package "mongo"
 # ruby_block "Configure mongodb" do
 #   block do
